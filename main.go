@@ -9,7 +9,7 @@ import (
 )
 
 func handleMemeSearch(w http.ResponseWriter, r *http.Request) {
-	apiKey := os.Getenv("GIPHY_API_KEY") // Fetch the API key from environment variable
+	apiKey := os.Getenv("jmhReJfMFvoKM6psA2wfNUYMc6DRot4Z") 
 	searchQuery := r.URL.Query().Get("q")
 
 	if apiKey == "" {
